@@ -1,0 +1,7 @@
+# Generated artifacts
+*.db
+*.csv
+images/
+
+# macOS
+.DS_Store
