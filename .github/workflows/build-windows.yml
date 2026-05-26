@@ -23,7 +23,7 @@ jobs:
 
       - name: Build EXE
         run: |
-          pyinstaller --onefile --name vads-crawler crawler.py
+          pyinstaller --onefile --noconsole --name vads-crawler gui.py
 
       - name: Upload EXE artifact
         uses: actions/upload-artifact@v4
